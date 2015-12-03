@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Christmas Colorizer</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+        <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.css">
+    </head>
+    <body>
+        <div class="container" id="top">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="light center">Christmas Colorizer</h1>
+                            <div class='center'>
+                                <span class="octicon octicon-code"><code> by <a href="http://k4kfh.github.io">Hampton</a> for <a href="http://buckhornhighschool.net">Buckhorn High School</a></code></span>
+                            </div>
+                            <hr style="opacity:0">
+                            <h5 class="light center">Select a color using the buttons below, then scroll down so the color covers your whole screen.</h5>
+                            
+                            <hr style="opacity:0">
+                            <a onclick="setColor('red')" class="waves-effect waves-light btn-large z-depth-0 red col s12">Red</a>
+                            <hr style="opacity:0">
+                            <a onclick="setColor('green')" class="waves-effect waves-light btn-large z-depth-0 green col s12">Green</a>
+                            <hr style="opacity:0">
+                            <a onclick="setColor('white')" class="grey lighten-3 waves-effect btn-large black-text z-depth-0 col s12">White</a>
+                            <hr style="opacity:0">
+                            <hr style="opacity:0">
+                            <div class="center">
+                                <a href="#colorcard" class="btn-floating btn-large red"><i class="material-icons">arrow_downward</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="red" id="colorcard" style="height:100vh">
+            <hr style="opacity:0">
+            <div class="center">
+                <a href="#top" class="btn-floating grey"><i class="material-icons">arrow_upward</i></a>
+            </div>
+        </div> 
+    </body>
+</html>
